@@ -1,0 +1,7 @@
+# Directories to Ignore
+**/.secret
+**/Testing*/*
+**/QA/*
+**/Logs/*
+__pycache__/
+**/.DS_Store/*
