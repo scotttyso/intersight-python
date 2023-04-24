@@ -23,6 +23,7 @@ Run the Script
 - Linux
 
 ```bash
+cd examples
 ./ip_pool_with_sdk.py
 ./ip_pool_with_requests.py
 ```
@@ -30,6 +31,7 @@ Run the Script
 - Windows
 
 ```shell
+cd examples
 python3 .\ip_pool_with_sdk.py
 python3 .\ip_pool_with_requests.py
 ```
