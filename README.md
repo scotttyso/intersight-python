@@ -17,3 +17,21 @@ export INTERSIGHT_API_PRIVATE_KEY="/home/<username>/Downloads/SecretKey.txt"
 $env:INTERSIGHT_API_KEY_ID="<your_intersight_api_key>"
 $env:INTERSIGHT_API_PRIVATE_KEY="C:\Users\<username>\Downloads\SecretKey.txt"
 ```
+
+Run the Script
+
+- Linux
+
+```bash
+./ip_pool_with_sdk.py
+./ip_pool_with_requests.py
+```
+
+- Windows
+
+```shell
+python3 .\ip_pool_with_sdk.py
+python3 .\ip_pool_with_requests.py
+```
+
+The purpose of this is to show an example of using the Intersight API via either the intersight Python SDK or using requests.
