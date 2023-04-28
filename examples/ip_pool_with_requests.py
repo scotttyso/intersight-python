@@ -57,8 +57,8 @@ def main():
     logger = logging.getLogger()
 
     # Creating ippool_pool
-    org_moid = get_organization('default')
-    payload  = create_ip_payload(logger, org_moid=org_moid)
+    org_moid = get_organization(logger, 'default')
+    payload  = create_ip_payload(org_moid)
     logger.info("Creating the ippool_pool.")
     pool_results = create_ip_pool(args, payload)
     logger.info("ippool_pool is created successfully.")
